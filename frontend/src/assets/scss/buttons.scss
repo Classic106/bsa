@@ -1,0 +1,17 @@
+.btn {
+  border-radius: 70px !important;
+
+  &:focus,
+  &:active {
+    box-shadow: none !important;
+    outline: none !important;
+  }
+}
+
+.btn-hover-gu-purple:hover {
+  color: $gu-blue !important;
+}
+
+.btn-hover-gu-white:hover {
+  color: $white !important;
+}

@@ -1,0 +1,12 @@
+@import '~assets/scss/utils';
+
+@include media-breakpoint-down(sm) {
+  .profile-nav-tabs {
+    width: fit-content;
+    margin: 0 auto;
+  }
+}
+
+.schedule {
+  max-width: 500px;
+}

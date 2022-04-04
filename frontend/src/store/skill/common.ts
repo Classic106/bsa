@@ -1,0 +1,26 @@
+import { ISkill } from 'common/interfaces/skill/skill';
+
+enum ActionType {
+  ADD_SKILL = 'ADD_SKILL',
+  REMOVE_SKILL = 'REMOVE_SKILL',
+  EDIT_SKILL = 'EDIT_SKILL',
+  SORT_NAME = 'SORT_NAME',
+  FETCH_SKILL = 'FETCH_SKILL',
+  FETCH_USER_SKILL = 'FETCH_USER_SKILL',
+  GET_SKILLS = 'GET_SKILLS',
+  CREATE_SKILLS = 'CREATE_SKILLS',
+  CONNECT_SKILLS = 'CONNECT_SKILLS',
+  DELETE_SKILL = 'DELETE_SKILL',
+  UPDATE_SKILL = 'UPDATE_SKILL',
+  FETCH_CAREER_PATH_USER_SKILL = 'FETCH_CAREER_PATH_USER_SKILL',
+  UPDATE_CAREER_PATH_USER_SKILL = 'UPDATE_CAREER_PATH_USER_SKILL',
+  MERGE_SKILLS = 'MERGE_SKILLS',
+}
+
+export type State = {
+  allSkills: ISkill[];
+  userSkill: ISkill[];
+  careerPathSkills: ISkill[];
+};
+
+export { ActionType };

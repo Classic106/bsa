@@ -1,0 +1,39 @@
+@import '~assets/scss/utils';
+
+.okr-container {
+  border: 2px solid $gu-pink;
+  border-radius: 10px;
+  height: 145px;
+}
+
+.okr-container:hover {
+  border: 2px solid $gray-500;
+}
+
+.okr-disable {
+  border: 2px solid $gray-200;
+  background-color: #8080801f;
+  color: #a7a5a5e0;
+  svg {
+    color: #a7a5a5e0 !important;
+  }
+}
+.OKR-name {
+  grid-area: name;
+}
+
+.reached {
+  grid-area: reached;
+}
+
+.objectives {
+  grid-area: obj;
+}
+
+.key-result {
+  grid-area: key;
+}
+
+.timestamp {
+  grid-area: time;
+}
